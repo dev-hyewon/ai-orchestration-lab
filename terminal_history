@@ -1,0 +1,395 @@
+  817  cd /home/hub/dev.lab/Notes/python_leehyewon
+  818  sudo dnf groupinstall "Development Tools" -y
+  819  sudo dnf install git gcc gcc-c++ make wget unzip -y
+  820  python3.9 -m venv ~/llm_env
+  821  source ~/llm_env/bin/activate
+  822  deactive
+  823  deactivate
+  824  rm -rf ~/llm_env
+  825  python3.9 -m venv /home/hub/dev.lab/Notes/python_leehyewon/llm_env
+  826  source ./llm_env/bin/activate
+  827  pip install --upgrade pip setuptools wheel
+  828  which ollama
+  829  ollama --version
+  830  ps aux | grep ollama
+  831  systemctl status ollama
+  832  pip install --upgrade pip
+  833  pip install langchain langchainhub
+  834  python test.py
+  835  pip install langchain_community
+  836  python test.py
+  837  python --version
+  838  pip list | grep -E 'langchain|ollama|pydantic'
+  839  pip uninstall langchain_community
+  840  python test.py
+  841  clear
+  842  pip install langchain_community
+  843  python test.py
+  844  pip uninstall langchain_community
+  845  pip install langchain_ollama
+  846  ollama list
+  847  pip install langchain_ollama
+  848  python test.py
+  849  clear
+  850  ollama list
+  851  ollama run mistral
+  852  ollama list
+  853  python test.py
+  854  clear
+  855  python test.py
+  856  clear
+  857  python test.py
+  858  python test_ollama.py 
+  859  clear
+  860  python test_ollama.py 
+  861  ls -al
+  862  ./simple.py
+  863  python simple.py 
+  864  pip install langchain_community
+  865  python simple.py 
+  866  clear
+  867  python simple.py 
+  868  pip uninstall langchain_community
+  869  clear
+  870  python simple.py 
+  871  clear
+  872  python simple.py 
+  873  pip install langchain_community
+  874  python simple.py 
+  875  clear
+  876  pip install faiss-cpu unstructured[local-inference] pdfminer.six
+  877  pip install pypdf
+  878  ls -al
+  879  python ./langchain_2.py 
+  880  claer
+  881  clear
+  882  python ./langchain_2.py 
+  883  clear
+  884  python ./langchain_2.py 
+  885  clear
+  886  python ./langchain_2.py 
+  887  clear
+  888  python ./langchain_2.py 
+  889  clear
+  890  python ./langchain_2.py 
+  891  pip install -U langchain_ollama
+  892  pip uninstall -U langchain_ollama
+  893  pip uninstall langchain_ollama
+  894  python ./langchain_2.py 
+  895  claer
+  896  clear
+  897  python ./langchain_2.py 
+  898  pip install -U langchain_ollama
+  899  clear
+  900  pip install -U langchain_ollama
+  901  clear
+  902  pip install -U langchain_ollama
+  903  clear
+  904  python ./langchain_2.py 
+  905  pip install faiss-gpu
+  906  python ./langchain_2.py 
+  907  clear
+  908  python ./langchain_2.py 
+  909  clear
+  910  python ./langchain_2.py 
+  911  clear
+  912  python ./langchain_2.py 
+  913  clear
+  914  python ./langchain_2.py 
+  915  clear
+  916  python ./langchain_2.py 
+  917  git version
+  918  git init
+  919  git config --list
+  920  git config user.name "dev-hyewon"
+  921  git cinfig user.email "developer.hyewon@gmail.com"
+  922  git config user.email "developer.hyewon@gmail.com"
+  923  git@github.com:dev-hyewon/ai-orchestration-lab.git
+  924  git git@github.com:dev-hyewon/ai-orchestration-lab.git
+  925  git remote add origin git@github.com:dev-hyewon/ai-orchestration-lab.git
+  926  git branch -M langchain
+  927  git config --list
+  928  ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519_ai_orch -C "ai-orchestration-lab 전용 키"
+  929  ls -al ~/.ssh
+  930  ls -al ~/
+  931  ls -al ~/.ssh
+  932  cat ~/.ssh/
+  933  cat ~/.ssh/id_ed25519_ai_orch.pub
+  934  cat ~/.ssh/id_ed25519_ai_orch
+  935  ssh-add ~/.ssh/id_ed25519_ai_orch
+  936  git branch -all
+  937  git branch --all
+  938  git branch
+  939  git branch -M branch
+  940  git branch -a
+  941  touch ./README.md
+  942  vi README.md 
+  943  vi HARDWARE-INFO.md
+  944  vi README.md 
+  945  git --version >> README.md
+  946  vi README.md 
+  947  python3 --version >> README.md 
+  948  vi README.md 
+  949  git add *.md
+  950  git status
+  951  git push origin -U langchain
+  952  git push -u origin langchain
+  953  git push -u origin langchain_
+  954  git remote add origin git@github.com:dev-hyewon/ai-orchestration-lab.git
+  955  git remote rm origin
+  956  git remote add origin git@github.com:dev-hyewon/ai-orchestration-lab.git
+  957  git push -u origin langchain_
+  958  git commit -m "initail"
+  959  git push -u origin langchain
+  960  git push -u origin langchain_
+  961  git log
+  962  git branch --all
+  963  gitgit branch -m langchain
+  964  git branch -m langchain
+  965  git branch --all
+  966  git push -u origin langchain
+  967  vi .gitignore
+  968  history
+  969  history > grep venv
+  970  history | grep venv
+  971  deactivate
+  972  mv ./llm_env ./venv_llm
+  973  source ./venv_llm/bin/activate
+  974  vi .gitignore
+  975  git status
+  976  git add .gitignore 
+  977  git status
+  978  git commit --amend
+  979  git push -u origin langchain
+  980  git push -f -u origin langchain
+  981  git status
+  982  git add test_ollama.py 
+  983  git commit -m "LangChain과 Ollama 연동 확인하기"
+  984  git push -u origin langchain
+  985  git status
+  986  git rm sample.pdf 
+  987  rm sample.pdf 
+  988  git status
+  989  git add langchain_1.py 
+  990  git commit -m "LangChain 핵심 컴포넌트 실습"
+  991  git push -u origin langchain
+  992  git status
+  993  git add .
+  994  git commit -m "문서 기반 질문 응답 (RAG: Retrieval-Augmented Generation"
+  995  git push -u origin langchain
+  996  git rebase -i
+  997  git rebase --root
+  998  deactivate
+  999  sudo ip route add 172.31.0.0/16 via 192.168.230.200
+ 1000  cd /home/hub/dev.lab/Notes/python_leehyewon
+ 1001  clear
+ 1002  ls -al /
+ 1003  ls -al /home
+ 1004  ls -al /home/hub/
+ 1005  ls -al /home/hub/dev.lab/
+ 1006  ls -al /home/hub/dev.lab/Notes/
+ 1007  ls -ld ~/.ssh
+ 1008  ls -ld ~/.ssh/
+ 1009  ls -al ~/.ssh/
+ 1010  cat ~/.ssh/id_ed25519_ai_orch.pub 
+ 1011  git checkout --orphan langgraph
+ 1012  git log
+ 1013  vi .gitignore
+ 1014  ls -al
+ 1015  git status
+ 1016  git add .gitignore 
+ 1017  git add README.md 
+ 1018  git add HARDWARE-INFO.md 
+ 1019  git commit -m "initial"
+ 1020  git status
+ 1021  git checkout langchain
+ 1022  git branch
+ 1023  git checkout langgraph
+ 1024  git status
+ 1025  git checkout langchain 
+ 1026  git branch
+ 1027  clear
+ 1028  pip list
+ 1029  python3-pip list
+ 1030  python3-pip --list
+ 1031  history
+ 1032  source ~/llm_env/bin/activate
+ 1033* 
+ 1034  source venv_llm/bin/activate
+ 1035  pip llist
+ 1036  history
+ 1037  pip list
+ 1038  pip install -U langchain_ollama
+ 1039  deactivate
+ 1040  source venv_llm/bin/activate
+ 1041  ls -ld ~/.vscode/
+ 1042  ls -al ~/.vscode/
+ 1043  ls -al venv_llm/
+ 1044  vi venv_llm/pyvenv.cfg 
+ 1045  grep "llm_env" /home/hub/dev.lab/Notes/python_leehyewon/venv_llm/bin/activate
+ 1046  sed -i 's/llm_env/venv_llm/g' /home/hub/dev.lab/Notes/python_leehyewon/venv_llm/bin/activate
+ 1047  source venv_llm/bin/activate
+ 1048* 
+ 1049  source venv_llm/bin/activate
+ 1050  pip list
+ 1051  ls -al
+ 1052  ls -al venv_llm/
+ 1053  ls -al venv_llm/bin/
+ 1054  python3 --version
+ 1055  python ./langchain_2.py 
+ 1056  python ./langchain_1.py 
+ 1057  clear
+ 1058  python ./langchain_1.py 
+ 1059  python test_ollama.py 
+ 1060  ollama --list
+ 1061  ollama list
+ 1062  ollama list >> README.md 
+ 1063  vi README.md 
+ 1064* 
+ 1065  vi README.md 
+ 1066  vi test_chain.py
+ 1067  python test_chain.py 
+ 1068  vi test_chain.py
+ 1069  python test_chain.py 
+ 1070  clear
+ 1071  python test_ollama.py 
+ 1072  python test_ollama.py > test_ollama.md
+ 1073  vi test_ollama.md 
+ 1074  git add test_ollama.*
+ 1075  git status
+ 1076  git commit -m "test_ollama.py 실행결과 첨부"
+ 1077  git push origin langchain 
+ 1078  git add README.md 
+ 1079  git commit -m "update"
+ 1080  git push origin langchain 
+ 1081  pip list
+ 1082  cat \$VIRTUAL_ENV/pyvenv.cfg 
+ 1083  which python
+ 1084  deactivate
+ 1085  mv /home/hub/dev.lab/Notes/python_leehyewon/venv_llm /home/hub/dev.lab/Notes/python_leehyewon/llm_env
+ 1086  sed -i 's/venv_llm/llm_env/g' /home/hub/dev.lab/Notes/python_leehyewon/llm_env/bin/activate
+ 1087  vi .gitignore 
+ 1088  pip list
+ 1089  source llm_env/bin/activate
+ 1090  pip list
+ 1091  pip freeze
+ 1092  pip freeze > requirements.txt
+ 1093  git status
+ 1094  git add requirements.txt 
+ 1095  git commit -m "pip freeze"
+ 1096  git commit --amend
+ 1097  git push origin langchain 
+ 1098  python test_chain.py 
+ 1099  vi test_chain.md
+ 1100  python test_chain.py >> test_chain.md
+ 1101  vi test_chain.md
+ 1102  git status
+ 1103  git add test_*
+ 1104  git status
+ 1105  git commit -m "프롬프트 템플릿을 모델 체인에 적용하기"
+ 1106  git push origin langchain 
+ 1107  mkdir day1_what-is-langchain
+ 1108  git mv langchain_1.py day1_what-is-langchain/langchain_1-1.py
+ 1109  git status
+ 1110  claer
+ 1111  clear
+ 1112  git mv test_ollama.py day1_what-is-langchain/langchain_1-2.py
+ 1113  git mv test_chain.py day1_what-is-langchain/langchain_1-3.py
+ 1114  git mv test_chain.md day1_what-is-langchain/langchain_1-3.md
+ 1115  git mv test_ollama.md day1_what-is-langchain/langchain_1-2.md
+ 1116  git status
+ 1117  git commit -m "day1"
+ 1118  git push origin langchain 
+ 1119  mkdir day2_document-based
+ 1120  git mv langchain_2.py day2_document-based/langchain_2-1.py
+ 1121  git commit -m "day2"
+ 1122  git push origin langchain 
+ 1123  mkdir day3_use-the-agent
+ 1124  git status
+ 1125  mkdir day4_LCEL
+ 1126* vi day_use-the-agent/langchain4-1.py
+ 1127  vi day4_LCEL/langchain4-1.py
+ 1128  vi day3_use-the-agent/learning-objectives.md
+ 1129  vi day4_LCEL/learning-objectives.md
+ 1130  git status
+ 1131  git add day3*
+ 1132  git add day4*
+ 1133  git status
+ 1134  git commit -m "day3"
+ 1135  git push origin langchain 
+ 1136  clear
+ 1137  vi day3_use-the-agent/langchain3-1.py
+ 1138  pip install duckduckgo-search
+ 1139  pip install langchain langchain-community langchain-core langchainhub langchain_ollama
+ 1140  vi day3_use-the-agent/langchain3-1.py
+ 1141  python day3_use-the-agent/langchain3-1.py 
+ 1142  vi day3_use-the-agent/langchain3-1.py
+ 1143  rm day3_use-the-agent/langchain3-1.py 
+ 1144  vi day3_use-the-agent/langchain3-1.py
+ 1145  python day3_use-the-agent/langchain3-1.py 
+ 1146  vi day3_use-the-agent/langchain3-1.py
+ 1147  python day3_use-the-agent/langchain3-1.py 
+ 1148  clear
+ 1149  python day3_use-the-agent/langchain3-1.py 
+ 1150  clear
+ 1151  python day3_use-the-agent/langchain3-1.py 
+ 1152  clear
+ 1153  pip install numexpr
+ 1154  clear
+ 1155  python day3_use-the-agent/langchain3-1.py 
+ 1156  clear
+ 1157  vi day3_use-the-agent/langchain3-1.md
+ 1158  python day3_use-the-agent/langchain3-1.py >> day3_use-the-agent/langchain3-1.md 
+ 1159  vi day3_use-the-agent/langchain3-1.md
+ 1160  git status
+ 1161  git add day3*
+ 1162  git status
+ 1163  git commit --amend
+ 1164  git push origin langchain
+ 1165  git push origin langchain 
+ 1166  git push -f origin langchain 
+ 1167  vi day3_use-the-agent/langchain3-2.py
+ 1168  pip install langchain langchain-community langchain-core python-dotenv
+ 1169  pip freeze > requirements.txt 
+ 1170  git status
+ 1171  git add requirements.txt 
+ 1172  git commit -m "update"
+ 1173  git push origin langchain 
+ 1174  pip install langchain_openai
+ 1175  pip freeze > requirements.txt 
+ 1176  git add requirements.txt 
+ 1177  git commit --amend
+ 1178  git push -f origin langchain 
+ 1179  python day3_use-the-agent/langchain3-2.py 
+ 1180  pip insall langgraph
+ 1181  pip install langgraph
+ 1182  python day3_use-the-agent/langchain3-2.py 
+ 1183  clear
+ 1184  python day3_use-the-agent/langchain3-2.py 
+ 1185  clear
+ 1186  python day3_use-the-agent/langchain3-2.py 
+ 1187  clear
+ 1188  python day3_use-the-agent/langchain3-2.py 
+ 1189  clear
+ 1190  python day3_use-the-agent/langchain3-2.py 
+ 1191  clear
+ 1192  python day3_use-the-agent/langchain3-2.py 
+ 1193  clear
+ 1194  python day3_use-the-agent/langchain3-2.py 
+ 1195  clear
+ 1196  python day3_use-the-agent/langchain3-2.py 
+ 1197  git status
+ 1198  clear
+ 1199  python day3_use-the-agent/langchain3-2.py  > day3_use-the-agent/langchain3-2.md
+ 1200  vi day3_use-the-agent/langchain3-2.md
+ 1201  git status
+ 1202  git add day*
+ 1203  git commit -m "web search agent"
+ 1204  git push origin langchain 
+ 1205  ls -al
+ 1206  rm .git
+ 1207  rmdir .git
+ 1208  rmdir -d .git
+ 1209  rm -rf .git
+ 1210  ls -al
+ 1211  history
